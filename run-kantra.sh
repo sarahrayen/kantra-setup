@@ -17,3 +17,5 @@ run_local_kantra() {
     --overwrite \
     $(for tag in "${KANTRA_TAGS[@]}"; do echo -n "-t $tag "; done)
 }
+
+run_local_kantra
